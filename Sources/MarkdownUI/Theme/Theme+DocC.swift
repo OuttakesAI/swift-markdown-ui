@@ -164,13 +164,13 @@ extension Color {
     light: Color(rgba: 0x0066_ccff), dark: Color(rgba: 0x2997_ffff)
   )
   fileprivate static let asideNoteBackground = Color(
-    light: Color(rgba: 0xf5f5_f7ff), dark: Color(rgba: 0x3232_32ff)
+    light: Color.white.opacity(0.42), dark: Color.black.opacity(0.42)
   )
   fileprivate static let asideNoteBorder = Color(
-    light: Color(rgba: 0x6969_69ff), dark: Color(rgba: 0x9a9a_9eff)
+    light: Color.white.opacity(0.42), dark: Color.black.opacity(0.42)
   )
   fileprivate static let codeBackground = Color(
-    light: Color(rgba: 0xf5f5_f7ff), dark: Color(rgba: 0x3333_36ff)
+    light: Color.white.opacity(0.42), dark: Color.black.opacity(0.42)
   )
   fileprivate static let grid = Color(
     light: Color(rgba: 0xd2d2_d7ff), dark: Color(rgba: 0x4242_45ff)
